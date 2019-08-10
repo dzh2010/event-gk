@@ -1,0 +1,41 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800&display=swap&subset=cyrillic');
+// colors
+$site-dark-grey: #333333;
+$site-teal: #2295AE;
+$site-light-grey: #EEEEEE;
+$site-scarlet: #F62130;
+
+$theme-colors: (
+  "site-dark-grey": $site-dark-grey,
+  "site-teal": $site-teal,
+  "site-light-grey": $site-light-grey,
+  "site-scarlet": $site-scarlet
+);
+// variables
+$font-family-sans-serif: "Open Sans", sans-serif;
+// classes
+.top-slogan {
+  text-align: center;
+  line-height: 1;
+}
+.landing-section-1 {
+  background: url('/img/back-photo.jpg') center no-repeat;
+  background-size: cover;
+}
+// media specific
+@media (min-width: 768px) { // Medium devices (tablets, 768px and up)
+  .screen-horizontal {
+    min-height: 100vh;
+  }
+  .top-slogan {
+    text-align: left;
+    margin-top: 32px;
+    align-self: flex-start !important;
+  }
+  .top-slogan::before {
+    content: '\2014\2002';
+  }
+}
+// bootstrap
+@import "../../../bootstrap-4.3.1/scss/bootstrap";
