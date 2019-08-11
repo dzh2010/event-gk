@@ -1,5 +1,54 @@
 // fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800&display=swap&subset=cyrillic');
+
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara.woff2') format('woff2'),
+      url('../fonts/Candara.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara-Light.woff2') format('woff2'),
+      url('../fonts/Candara-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Candara-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara-Bold.woff2') format('woff2'),
+      url('../fonts/Candara-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara-Italic.woff2') format('woff2'),
+      url('../fonts/Candara-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara-LightItalic.woff2') format('woff2'),
+      url('../fonts/Candara-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: fallback;
+}
 // colors
 $site-dark-grey: #333333;
 $site-teal: #2295AE;
@@ -14,6 +63,9 @@ $theme-colors: (
 );
 // variables
 $font-family-sans-serif: "Open Sans", sans-serif;
+
+$enable-rounded: false;
+$enable-caret: false;
 // classes
 .top-slogan {
   text-align: center;
