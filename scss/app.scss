@@ -1,5 +1,5 @@
 // fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,800&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800&display=swap&subset=cyrillic');
 
 @font-face {
   font-family: 'Candara';
@@ -55,6 +55,9 @@ $site-teal: #2295AE;
 $site-light-grey: #EEEEEE;
 $site-scarlet: #F62130;
 
+$primary: $site-teal;
+$secondary: $site-dark-grey;
+
 $theme-colors: (
   "site-dark-grey": $site-dark-grey,
   "site-teal": $site-teal,
@@ -66,17 +69,40 @@ $font-family-sans-serif: "Open Sans", sans-serif;
 
 $enable-rounded: false;
 $enable-caret: false;
+
+$link-decoration: underline;
+
+$headings-font-family: 'Candara';
 // classes
+.header {
+  background-color: #FFFFFF;
+}
 .top-slogan {
   text-align: center;
   line-height: 1;
+  // margin-bottom: 1rem;
+}
+.top-phone {
+  font-size: 32px;
+  line-height: 0.75;
+  margin-bottom: 0.375rem;
 }
 .landing-section-1 {
   background: url('/img/back-photo.jpg') center no-repeat;
   background-size: cover;
 }
+.landing-section-3 {
+  background: url('/img/about-photo.jpg') center no-repeat;
+  background-size: cover;
+}
+.scroll-down, .scroll-down:hover, .scroll-down:focus {
+  text-decoration: none;
+}
 // media specific
 @media (min-width: 768px) { // Medium devices (tablets, 768px and up)
+  .header {
+    background-color: rgba(255, 255, 255, 0.8)
+  }
   .screen-horizontal {
     min-height: 100vh;
   }
@@ -87,6 +113,22 @@ $enable-caret: false;
   }
   .top-slogan::before {
     content: '\2014\2002';
+  }
+  .dots {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    cursor: default;
+  }
+}
+@media (min-width: 992px) { // Large devices (desktops, 992px and up)
+  .top-phone {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
+  .top-phone {
+    font-size: 32px;
   }
 }
 // bootstrap
