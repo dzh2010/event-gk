@@ -96,7 +96,7 @@ $border-width: 2px;
   line-height: 1;
   // margin-bottom: 1rem;
 }
-.top-phone {
+.top-phone, .top-delivery {
   font-size: 2rem;
   line-height: 0.75;
   margin-bottom: 0.375rem;
@@ -179,6 +179,9 @@ $border-width: 2px;
   .top-phone {
     font-size: 24px;
   }
+  .top-delivery {
+    font-size: 22px;
+  }
   .screen-3-icons {
     min-height: calc(3em + 1rem);
   }
@@ -192,6 +195,9 @@ $border-width: 2px;
 @media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
   .top-phone {
     font-size: 32px;
+  }
+  .top-delivery {
+    font-size: 28px;
   }
 }
 
