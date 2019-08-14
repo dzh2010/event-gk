@@ -85,6 +85,9 @@ $border-width: 2px;
 .lead {
   line-height: 1.2;
 }
+.display-4 {
+  font-size: 2.5rem !important;
+}
 .font-candara {
   font-family: 'Candara';
 }
@@ -143,6 +146,9 @@ $border-width: 2px;
 }
 // media specific
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
+  .display-4 {
+    font-size: 3.5rem !important;
+  }
   .btn-order {
     padding: 0.75rem 5rem !important;
   }
