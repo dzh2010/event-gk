@@ -66,11 +66,11 @@
   margin-bottom: 0.375rem; }
 
 .landing-section-1 {
-  background: url("/img/back-photo.jpg") center no-repeat;
+  background: url("../img/back-photo.jpg") center no-repeat;
   background-size: cover; }
 
 .landing-section-3 {
-  background: url("/img/about-photo.jpg") center no-repeat;
+  background: url("../img/about-photo.jpg") center no-repeat;
   background-size: cover; }
 
 .scroll-down, .scroll-down:hover, .scroll-down:focus {
