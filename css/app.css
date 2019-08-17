@@ -44,6 +44,9 @@
 .form-control {
   border-radius: 0.25rem !important; }
 
+.btn.disabled, .btn:disabled {
+  opacity: 1; }
+
 .lead {
   line-height: 1.2; }
 
