@@ -129,8 +129,6 @@ a.btn, a.btn:hover, a.btn:focus {
 .btn-custom {
   font-family: 'Candara';
   font-weight: bold !important;
-  box-shadow: 15px 15px 30px 5px rgba(0,0,0,0.27);
-  text-shadow: 10px 10px 20px rgba(0,0,0,0.5);
   line-height: 1.2 !important;
 }
 .btn-order {
@@ -141,6 +139,10 @@ a.btn, a.btn:hover, a.btn:focus {
 .btn-feedback {
   font-size: 2rem !important;
   padding: 0.5rem 1.5rem !important;
+}
+.btn-order, .btn-feedback {
+  box-shadow: 15px 15px 30px 5px rgba(0,0,0,0.27);
+  text-shadow: 10px 10px 20px rgba(0,0,0,0.5);
 }
 .cards-container {
   display: grid;
