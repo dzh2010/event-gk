@@ -47,6 +47,9 @@
 .btn.disabled, .btn:disabled {
   opacity: 1 !important; }
 
+a.btn, a.btn:hover, a.btn:focus {
+  text-decoration: none !important; }
+
 .lead {
   line-height: 1.2; }
 
@@ -87,7 +90,6 @@
 .btn-custom {
   font-family: 'Candara';
   font-weight: bold !important;
-  border-radius: 9999px !important;
   -webkit-box-shadow: 15px 15px 30px 5px rgba(0, 0, 0, 0.27);
           box-shadow: 15px 15px 30px 5px rgba(0, 0, 0, 0.27);
   text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
