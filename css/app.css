@@ -59,6 +59,9 @@ a.btn, a.btn:hover, a.btn:focus {
 .font-candara {
   font-family: 'Candara'; }
 
+.carousel {
+  height: 350px; }
+
 .header {
   background-color: rgba(255, 255, 255, 0.8); }
 
@@ -5446,7 +5449,7 @@ a.close.disabled {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 15%;
+  width: 25px;
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -5497,8 +5500,8 @@ a.close.disabled {
       -ms-flex-pack: center;
           justify-content: center;
   padding-left: 0;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 25px;
+  margin-left: 25px;
   list-style: none; }
   .carousel-indicators li {
     -webkit-box-sizing: content-box;
