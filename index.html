@@ -10,8 +10,59 @@
 </head>
 <body>
   <!-- Top menu start -->
+  <div class="container top-menu d-none d-lg-flex flex-row justify-content-lg-between align-items-center py-3">
+    <a href="/">
+      <img src="/img/logo.svg" alt="EventGK">
+    </a>
+    <nav class="nav mr-auto mx-4 position-relative">
+      <a href="#" class="nav-link">О группе компаний</a>
+      <a href="#" class="nav-link">Новости</a>
+      <a href="#" class="nav-link">Оплата и доставка</a>
+    </nav>
+    <div class="top-cart">
+      <a href="#">
+        <img src="/img/cart.svg" alt="Cart">
+      </a>
+    </div>
+  </div>
   <!-- Top menu end -->
   <!-- Main menu start -->
+  <div class="catalog-menu">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="/" class="navbar-brand d-lg-none">
+          <img src="/img/logo.svg" alt="EventGK">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCatalogMenu" aria-controls="navbarCatalogMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCatalogMenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item d-lg-none">
+              <a class="nav-link" href="#">Корзина</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Люки ревизионные</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Вентиляционная продукция</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Прочая продукция</a>
+            </li>
+          </ul>
+          <form action="/search/" class="form-inline py-3 py-lg-0">
+            <div class="input-group">
+              <input type="text" name="q" class="form-control rounded" placeholder="Поиск" required>
+              <div class="input-group-append search-button-group">
+                <button class="btn text-secondary" type="submit"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </div>
   <!-- Main menu end -->
   <!-- Carousel start -->
   <div class="bg-site-dark-grey">

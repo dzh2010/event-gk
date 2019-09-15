@@ -105,6 +105,18 @@ a.btn, a.btn:hover, a.btn:focus {
 .header {
   background-color: rgba(255, 255, 255, 0.8)
 }
+.search-button-group {
+  margin-left: -2.5rem !important;
+  z-index: 999;
+  button {
+    background: transparent !important;
+    border: 0 !important;
+  }
+  button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
 .top-slogan {
   text-align: center;
   line-height: 1;
@@ -158,6 +170,20 @@ a.btn, a.btn:hover, a.btn:focus {
 }
 .card-img-top {
   border-radius: 3rem;
+}
+.top-menu {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+.catalog-menu {
+  .navbar-nav {
+    .nav-link {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bolder;
+    }
+  }
 }
 // media specific
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
@@ -214,6 +240,19 @@ a.btn, a.btn:hover, a.btn:focus {
   }
   .card-text {
     line-height: 1.1;
+  }
+  .catalog-menu {
+    background-color: $site-teal;
+    .navbar-nav {
+      .nav-item:not(:last-child) {
+        border-right: 1px solid #FFFFFF;
+      }
+      .nav-link {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+        color: #FFFFFF !important;
+      }
+    }
   }
 }
 @media (min-width: 1200px) { // Extra large devices (large desktops, 1200px and up)
