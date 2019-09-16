@@ -172,8 +172,16 @@ a.btn, a.btn:hover, a.btn:focus {
   border-radius: 3rem;
 }
 .top-menu {
+  position: relative;
   .nav-link {
     font-size: 20px;
+  }
+  .top-menu-slogan {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    line-height: 1;
+    font-weight: bold;
   }
 }
 .catalog-menu {
@@ -184,6 +192,22 @@ a.btn, a.btn:hover, a.btn:focus {
       font-weight: bolder;
     }
   }
+}
+.top-cart {
+  position: relative;
+  .cart-count {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: $site-teal;
+  }
+}
+.top-phone-simple {
+  font-size: 26px;
 }
 // media specific
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
