@@ -268,12 +268,14 @@ a.btn, a.btn:hover, a.btn:focus {
   .catalog-menu {
     background-color: $site-teal;
     .navbar-nav {
-      .nav-item:not(:last-child) {
-        border-right: 1px solid #FFFFFF;
+      .nav-item:not(.d-lg-none) + .nav-item:not(.d-lg-none) {
+        border-left: 1px solid #FFFFFF;
+        padding-left: 1.5rem;
+      }
+      .nav-item {
+        padding-right: 1.5rem;
       }
       .nav-link {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
         color: #FFFFFF !important;
       }
     }
