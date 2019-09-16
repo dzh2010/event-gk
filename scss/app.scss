@@ -209,6 +209,13 @@ a.btn, a.btn:hover, a.btn:focus {
 .top-phone-simple {
   font-size: 26px;
 }
+.about-company {
+  background-image: url('../img/main_background.jpg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
 // media specific
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
   .display-4 {
