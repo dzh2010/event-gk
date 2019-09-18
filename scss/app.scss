@@ -277,13 +277,19 @@ a.btn, a.btn:hover, a.btn:focus {
     .navbar-nav {
       .nav-item:not(.d-lg-none) + .nav-item:not(.d-lg-none) {
         border-left: 1px solid #FFFFFF;
-        padding-left: 1.5rem;
       }
       .nav-item {
+        padding-left: 1.5rem;
         padding-right: 1.5rem;
+        .nav-link {
+          color: #FFFFFF !important;
+        }
       }
-      .nav-link {
-        color: #FFFFFF !important;
+      .nav-item.active {
+        background-color: #FFFFFF;
+        .nav-link {
+          color: $site-teal !important;
+        }
       }
     }
   }
