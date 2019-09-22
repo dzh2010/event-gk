@@ -102,8 +102,23 @@ a.btn, a.btn:hover, a.btn:focus {
 .font-candara {
   font-family: 'Candara';
 }
-.carousel {
-  height: 350px;
+.site-carousel {
+  background-color: #141414;
+  .carousel-caption {
+    left: 75px;
+    right: 50%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    // transform: translateY(-50%);
+    .site-carousel-caption {
+      margin-bottom: 0;
+      font-size: 2.5rem;
+      text-align: left;
+      text-shadow: 0px 0px 10px #141414;
+    }
+  }
 }
 .header {
   background-color: rgba(255, 255, 255, 0.8)
