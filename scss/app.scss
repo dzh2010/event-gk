@@ -247,6 +247,15 @@ a.btn, a.btn:hover, a.btn:focus {
   background-size: cover;
   color: #FFFFFF;
 }
+.gallery-row {
+  margin-left: -0.25rem !important;
+  margin-right: -0.25rem !important;
+}
+.gallery-row > div {
+  margin-top: 0.5rem;
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
 // media specific
 @media (min-width: 576px) { // Small devices (landscape phones, 576px and up)
   .display-4 {
