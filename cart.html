@@ -84,56 +84,113 @@
   <div class="container py-4">
     <div class="row">
       <div class="col-12">
-        <h2>Каталог продукции</h2>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Главная</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Корзина заказов</li>
+          </ol>
+        </nav>
+        <h2>Вы выбрали:</h2>
+        <div class="row d-none d-lg-flex border-bottom border-site-dark-grey my-3">
+          <div class="col-lg-6"><h4>Товар</h4></div>
+          <div class="col-lg-2"><h4>Цена</h4></div>
+          <div class="col-lg-2"><h4>Количество</h4></div>
+          <div class="col-lg-2"><h4>Сумма</h4></div>
+        </div>
         <div class="row">
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=1" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+          <div class="col-md-6 col-lg-3 pr-lg-4">
+            <img class="img-fluid w-100" src="https://picsum.photos/500/400?random=1" alt="">
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=2" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+          <div class="col-md-6 col-lg-3 d-lg-flex my-3 my-lg-0">
+            <a class="h5 align-self-center my-0" href="#">Люк ревизионный нажимной под плитку</a>
+            <p class="product-weight">вес: 7 кг, объем: 0.8 м<sup>3</sup></p>
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=3" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+          <div class="col-lg-6 my-3 my-lg-0">
+            <div class="row h-100">
+              <div class="col-4 align-self-center"><span class="h4">1 800 руб.</span></div>
+              <div class="col-4 d-flex align-self-center align-items-center">
+                <span class="spinner-control">&ndash;</span>
+                <input class="product-count form-control border-site-light-grey" type="number" name="" id="" value="100" step="1" min="1">
+                <span class="spinner-control">+</span>
+              </div>
+              <div class="col-4 align-self-center">
+                <div class="d-flex">
+                  <span class="h4 text-site-teal mr-auto">1 800 руб.</span>
+                  <a href="#" class="text-danger"><i class="fa fa-times"></i></a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=4" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+        </div>
+        <div class="row border-bottom border-top border-site-dark-grey my-3">
+          <div class="col-lg-6">
+            <h4 class="my-4 cart-summary">
+              общий вес: <span class="text-site-teal">8 кг</span>, общий объем: <span class="text-site-teal">1.3 м<sup>3</sup></span>
+            </h4>
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=5" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+          <div class="col-lg-6 d-flex">
+            <h3 class="align-self-center ml-lg-auto cart-summary">общая сумма: <span class="text-site-teal">3 200 руб.</span></h3>
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=6" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
+        </div>
+        <h4 class="mb-4">Пожалуйста, укажите свои контактные данные для оформления заказа:</h4>
+        <form action="" class="mb-3 mb-lg-5">
+          <div class="row mx-lg-4">
+            <div class="col-lg-6">
+              <div class="form-group row">
+                <label for="" class="col-4 col-lg-5 col-form-label">Ваше имя:</label>
+                <div class="col-8 col-lg-7">
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="" class="col-4 col-lg-5 col-form-label">Телефон:</label>
+                <div class="col-8 col-lg-7">
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="" class="col-4 col-lg-5 col-form-label">Электронная почта:</label>
+                <div class="col-8 col-lg-7">
+                  <input type="text" name="" id="" class="form-control">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="">Адрес доставки:</label>
+                <textarea name="" id="" rows="3" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-4 col-lg-5">Доставка:</legend>
+                  <div class="col-8 col-lg-7 pt-2">
+                    <div class="form-check">
+                      <input type="radio" name="" id="" class="form-check-input">
+                      <label for="" class="form-check-label">СДЭК</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" name="" id="" class="form-check-input">
+                      <label for="" class="form-check-label">Деловые линии</label>
+                    </div>
+                    <div class="form-check">
+                      <input type="radio" name="" id="" class="form-check-input">
+                      <label for="" class="form-check-label">Другая транспортная компания</label>
+                    </div>
+                    <input type="text" name="" id="" class="form-control mt-2">
+                  </div>
+                </div>
+              </fieldset>
+            </div>
           </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=7" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=8" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=9" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=10" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=11" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
-          <div class="col-md-6 col-lg-3 mt-3">
-            <a href="/catalog.html"><img class="img-fluid" src="https://picsum.photos/500/400?random=12" alt=""></a>
-            <a class="d-block h5 mt-1 mb-4" href="/catalog.html">Люки напольные с&nbsp;амортизаторами</a>
-          </div>
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-8">
+              <p class="text-primary my-3">Нажимая на кнопку &laquo;Отправить&raquo;, Вы даёте согласие на
+                обработку Ваших персональных данных в соответствии с <a href="#">указанными условиями</a></p>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center">
+              <button type="submit" class="btn btn-custom btn-feedback btn-primary btn-shadow rounded-pill">Оплатить</button>
+            </div>
+        </form>
         </div>
       </div>
     </div>
@@ -141,40 +198,6 @@
   <!-- Content end -->
   <!-- Footer start -->
   <div class="footer">
-    <div class="bg-site-dark-grey pt-3 pt-lg-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div
-              class="border border-site-teal bg-site-light-grey text-secondary mb-3 mb-lg-5 mx-lg-5 py-4 px-3 px-xl-5">
-              <h4 class="text-center mb-4">Оставьте свой номер телефона. Наш специалист Вам перезвонит.</h4>
-              <form action="">
-                <div class="row no-gutters align-items-center justify-content-between">
-                  <div class="col-12 col-md-4 col-xl-auto">
-                    <label for="" class="my-0">Номер телефона:</label>
-                  </div>
-                  <div class="col-12 col-md-8 col-xl-auto my-2 mx-xl-3">
-                    <input type="text" name="" id="" class="form-control">
-                  </div>
-                  <div class="col-12 col-md-4 col-xl-auto">
-                    <label for="" class="my-0">Ваше имя:</label>
-                  </div>
-                  <div class="col-12 col-md-8 col-xl-auto my-2 mx-xl-3">
-                    <input type="text" name="" id="" class="form-control">
-                  </div>
-                  <div class="col-12 col-xl-auto text-center my-2">
-                    <button type="submit"
-                      class="btn btn-custom btn-feedback btn-primary btn-shadow rounded-pill">Отправить</button>
-                  </div>
-                </div>
-              </form>
-              <p class="text-primary mt-3 mb-0">Нажимая на кнопку &laquo;Отправить&raquo;, Вы даёте согласие на
-                обработку Ваших персональных данных в соответствии с <a href="#">указанными условиями</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="bg-site-light-grey py-5">
       <div class="container">
         <div class="row">
