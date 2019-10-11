@@ -1,0 +1,113 @@
+<mjml>
+    <mj-head>
+        <mj-breakpoint width="320px" />
+        <mj-attributes>
+            <mj-all color="#333333" />
+            <mj-text font-size="14px"></mj-text>
+            <mj-class name="th" color="#337AB7" padding="10px 0"/>
+            <mj-class name="td" padding="10px 0"/>
+        </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#FFFFFF">
+        <mj-section background-color="#2D8EAE" padding="10px 0">
+            <mj-column>
+                <mj-image src="logo_mail.png" alt="Logo" width="245px"/>
+            </mj-column>
+            <mj-column>
+            </mj-column>
+        </mj-section>
+        <mj-wrapper>
+            <mj-section padding="0">
+                <mj-column width="100%">
+                    <mj-text font-size="24px">
+                        Здравствуйте, {{USERNAME}}
+                    </mj-text>
+                    <mj-text>
+                        Спасибо за интерес к нашей продукции. С Вами в ближайшее время свяжется наш менеджер по указанному Вами номеру телефона: {{PHONE}}
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0 25px" border-bottom="1px solid #CCCCCC">
+                <mj-column width="50%">
+                    <mj-text mj-class="th" font-weight="bold">
+                        Заказ № {{ORDER}}
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="th">
+                        цена, руб.
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="th">
+                        кол-во, шт
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="th">
+                        сумма, руб.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- item start -->
+            <mj-section padding="0 25px" border-bottom="1px solid #CCCCCC">
+                <mj-column width="50%">
+                    <mj-text font-weight="bold" mj-class="td">
+                        Металлический люк (М) 10х20
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="td">
+                        190,40
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="td">
+                        1
+                    </mj-text>
+                </mj-column>
+                <mj-column width="16.66%">
+                    <mj-text mj-class="td">
+                        190,40
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- item stop -->
+            <!-- count start -->
+            <mj-section padding="0" border-bottom="1px solid #CCCCCC">
+                <mj-column width="100%">
+                    <mj-text>
+                        Всего товаров: 2
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- count stop -->
+            <!-- summ start -->
+            <mj-section padding="0">
+                <mj-column width="100%">
+                    <mj-text font-weight="bold" font-size="18px">
+                        Общая сумма: 500 руб.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <!-- summ stop -->
+            <mj-section padding="0">
+                <mj-column width="100%">
+                    <mj-text>
+                        Адрес доставки: {{ADDRESS}}
+                    </mj-text>
+                    <mj-text>
+                        При возникновении вопросов можете связаться с нами по телефону:<br><strong>+7 (800) 2222-198</strong>. Звонок по России бесплатный.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-section background-color="#2D8EAE">
+            <mj-column width="100%">
+                <mj-text color="#FFFFFF">
+                    Продолжить выбор продукции, узнать о способах доставки и оплаты Вы можете на нашем сайте: <a target="_blank" href="http://www.event-gk.ru/" style="color: #FFFFFF;">www.event-gk.ru</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
