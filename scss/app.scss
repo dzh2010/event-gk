@@ -84,6 +84,9 @@ $breadcrumb-padding-y: 0;
 $breadcrumb-padding-x: 0;
 $breadcrumb-bg: transparent;
 // classes
+html {
+  font-size: 14px;
+}
 .form-control {
   border-radius: 0.25rem !important;
 }
@@ -170,7 +173,7 @@ a.btn, a.btn:hover, a.btn:focus {
   line-height: 1.2 !important;
 }
 .btn-shadow {
-  box-shadow: 15px 15px 30px 5px rgba(0,0,0,0.27);
+  box-shadow: 10px 10px 30px 5px rgba(0,0,0,0.27);
   text-shadow: 10px 10px 20px rgba(0,0,0,0.5);
 }
 .btn-order {
@@ -204,7 +207,7 @@ a.btn, a.btn:hover, a.btn:focus {
 .top-menu {
   position: relative;
   .nav-link {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .top-menu-slogan {
     position: absolute;
@@ -269,7 +272,7 @@ a.btn, a.btn:hover, a.btn:focus {
   position: relative;
   .cart-count {
     position: absolute;
-    top: 12px;
+    top: 7px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -279,7 +282,7 @@ a.btn, a.btn:hover, a.btn:focus {
   }
 }
 .top-phone-simple {
-  font-size: 26px;
+  font-size: 24px;
 }
 .about-company {
   background-position: top left;
